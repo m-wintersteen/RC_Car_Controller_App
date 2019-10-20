@@ -2,6 +2,8 @@
 
 Android app for use with Bluefruit Bluetooth LE modules and dev boards from Adafruit.
 
+This is for the class EGEN 310. We are using a Feather 32u4 Bluefruit LE microcontroller and a DRV8833 Motor driver. The phone we are using is a Pixel 3 running Android 10.
+
 
 ## App Versions
 
