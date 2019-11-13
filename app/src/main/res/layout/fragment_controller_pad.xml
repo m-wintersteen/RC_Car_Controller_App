@@ -15,7 +15,6 @@
         android:id="@+id/bufferTextView"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:layout_marginBottom="20dp"
         android:background="#cccccc"
         android:cursorVisible="false"
         android:gravity="top"
@@ -168,7 +167,7 @@
                         android:layout_weight="1"
                         android:background="@drawable/roundedbutton"
                         android:scaleType="centerInside"
-                        android:src="@drawable/pad_button_numbers_1"
+                        android:src="@drawable/bunny_rabbit_512"
                         android:tag="1" />
 
                     <View
@@ -183,7 +182,7 @@
                         android:layout_weight="1"
                         android:background="@drawable/roundedbutton"
                         android:scaleType="centerInside"
-                        android:src="@drawable/pad_button_numbers_2"
+                        android:src="@drawable/turtle"
                         android:tag="2" />
                 </LinearLayout>
 
@@ -205,7 +204,7 @@
                         android:layout_weight="1"
                         android:background="@drawable/roundedbutton"
                         android:scaleType="centerInside"
-                        android:src="@drawable/pad_button_numbers_3"
+                        android:src="@drawable/arrow_shoot_on_target_center_pngrepo_com"
                         android:tag="3" />
 
                     <View
