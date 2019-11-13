@@ -15,7 +15,7 @@
         android:id="@+id/bufferTextView"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:background="#cccccc"
+        android:background="#3E657D"
         android:cursorVisible="false"
         android:gravity="top"
         android:scrollbarFadeDuration="0"
@@ -142,10 +142,7 @@
             </LinearLayout>
 
             <!-- Separator -->
-            <View
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_weight="0.3" />
+
 
             <!-- KeyPad -->
             <LinearLayout
@@ -197,30 +194,25 @@
                     android:layout_weight="1"
                     android:orientation="horizontal">
 
+
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
                     <ImageButton
                         android:id="@+id/button3ImageButton"
-                        android:layout_width="0dp"
+                        android:layout_width="80dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@drawable/roundedbutton"
                         android:scaleType="centerInside"
                         android:src="@drawable/arrow_shoot_on_target_center_pngrepo_com"
                         android:tag="3" />
-
                     <View
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1" />
-
-                    <ImageButton
-                        android:id="@+id/button4ImageButton"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:background="@drawable/roundedbutton"
-                        android:scaleType="centerInside"
-                        android:src="@drawable/pad_button_numbers_4"
-                        android:tag="4" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
